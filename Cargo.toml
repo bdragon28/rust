@@ -100,6 +100,9 @@ rustfmt-nightly = { path = "src/tools/rustfmt" }
 # here
 rustc-workspace-hack = { path = 'src/tools/rustc-workspace-hack' }
 
+# Local overrides
+libc = { git = "https://github.com/bdragon28/libc", rev = "a87a81369" }
+
 # See comments in `library/rustc-std-workspace-core/README.md` for what's going on
 # here
 rustc-std-workspace-core = { path = 'library/rustc-std-workspace-core' }
